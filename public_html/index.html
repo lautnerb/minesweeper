@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <title>Aknakereső</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="form">
+            <form>
+                Szint: 
+                <select id="szint">
+                    <option value="kezdo">Kezdő</option>
+                    <option value="halado">Haladó</option>
+                    <option value="mester">Mester</option>
+                </select>
+                <button type="button" onclick="start();">Új játék</button>
+            </form>
+        </div>
+        <table class="palya" id="palya"></table>
+        <script src="js/aknakereso.js"></script>
+    </body>
+</html>
